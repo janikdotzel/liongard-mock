@@ -30,6 +30,14 @@ java -jar target/liongard-mock-0.1.0-SNAPSHOT-jar-with-dependencies.jar \
 
 On the first run, the server inspects the OpenAPI document, generates response payloads based on the documented schemas, and writes them to `mock-data/<operation>-<status>.json`. Subsequent runs reuse the files so you can edit them to craft deterministic scenarios.
 
+## Exercising the API
+
+1. Start the mock (see above) and wait for the console message that it is listening on the chosen port.
+2. In Postman (or any HTTP client), point the collection/base URL to `http://localhost:8080` and remove authentication, because the mock ignores auth headers.
+3. Fire requests exactly as defined in the official spec. Path parameters such as `/environments/{EnvironmentID}` can use any realistic value (e.g. `/environments/123`); the mock will substitute the ID into the JSON response where placeholders like `{{EnvironmentID}}` exist.
+4. If you receive a 404, double-check the method and path combination—the server only hosts routes described in the spec. Successful calls return the canned JSON payloads from `mock-data/`.
+5. Tailor the responses by editing the relevant JSON files and repeat the request; the server reloads files per call, so no restart is needed.
+
 ## Customising responses
 
 - Edit any JSON file under the mock directory to return bespoke payloads. The server reloads files on every request.
