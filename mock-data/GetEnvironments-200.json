@@ -1,0 +1,26 @@
+[ {
+  "ID" : 8888,
+  "ServiceProviderID" : 1,
+  "Name" : "Contoso Nation",
+  "ShortName" : "CN",
+  "Description" : "Example Description",
+  "Status" : 1,
+  "Visible" : true,
+  "ExpiresOn" : "2021-09-10T19:21:03.195Z",
+  "KeyRotation" : 90,
+  "Website" : "contoso.com",
+  "Static" : false,
+  "CreatedOn" : "2021-09-10T19:21:03.195Z",
+  "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+  "Tier" : {
+    "Type" : "Core",
+    "CanDowngrade" : false,
+    "AssociatedInspectors" : 14
+  },
+  "CreatedBy" : {
+    "ID" : 1234,
+    "FirstName" : "Alex",
+    "LastName" : "Weber",
+    "Username" : "Alex.Weber"
+  }
+} ]

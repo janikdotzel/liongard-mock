@@ -1,0 +1,110 @@
+{
+  "ID" : 18671,
+  "Environment" : {
+    "ID" : 18701,
+    "ServiceProviderID" : 1,
+    "Name" : "Contoso Nation",
+    "ShortName" : "CN",
+    "Description" : "Example Description",
+    "Status" : 1,
+    "Visible" : true,
+    "ExpiresOn" : "2021-09-10T19:21:03.195Z",
+    "KeyRotation" : 90,
+    "LastKeyRotation" : "2021-09-10T19:21:03.195Z",
+    "Website" : "contoso.com",
+    "Static" : false,
+    "CreatedOn" : "2021-09-10T19:21:03.195Z",
+    "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+    "Tier" : {
+      "Type" : "Core",
+      "CanDowngrade" : false,
+      "AssociatedInspectors" : 14
+    }
+  },
+  "Inspector" : {
+    "ID" : 13,
+    "Name" : "active-directory-inspector",
+    "Alias" : "Active Directory",
+    "Published" : true,
+    "Author" : "Liongard, Inc.",
+    "ContactEmail" : "support@liongard.com",
+    "Logo" : "https://resources.static.liongard.com/images/active-directory-inspector.png",
+    "Icon" : "https://resources.static.liongard.com/images/icons/microsoft-windows-icon.png",
+    "Description" : "Inspects Active Directory, returning a wide variety of data including actionable summary information such as privileged users, security policies and much more.",
+    "HelpLink" : "https://docs.liongard.com/docs/active-directory-inspection-setup",
+    "PublishedStatus" : "production",
+    "InspectorCategory" : "appservices",
+    "EnhancedBilling" : false,
+    "DefaultFrequency" : {
+      "Type" : "days",
+      "Interval" : 1
+    },
+    "Constraints" : {
+      "Tiers" : [ "core" ],
+      "Platform" : [ "windows" ],
+      "Frequency" : {
+        "MaxIntervalType" : "hours",
+        "MaxIntervalFrequency" : 8
+      },
+      "AgentConstraint" : [ "customer-on-prem" ],
+      "RecomendedAgent" : "customer-on-prem"
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "DiagnosticsEnabled" : false
+  },
+  "Agent" : {
+    "ID" : 1511,
+    "Data" : {
+      "PSVersion" : "5.1.17763.1490",
+      "JobsRunning" : 0,
+      "AgentVersion" : "2.0.2",
+      "MaxJobsAllowed" : 5,
+      "AutoUpdatingStatus" : "Enabled"
+    },
+    "UID" : "07c4265fbd647d5b460324991df2f6c",
+    "Bucket" : "roar-payloads-52327fb",
+    "Name" : "Contoso Nation Agent",
+    "Description" : "Main Agent",
+    "Status" : 1,
+    "Hostname" : "CN-DC01",
+    "IP" : "72.33.231.92",
+    "JobQueue" : "https://sqs.us-west-2.amazonaws.com/414981065368/02f6c-down",
+    "Platform" : "windows",
+    "Suspended" : false,
+    "Managed" : false,
+    "LastHeartbeat" : "2021-09-10T19:21:03.195Z",
+    "CreatedOn" : "2021-09-10T19:21:03.195Z",
+    "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+    "UpdatesCheckedOn" : "2021-09-10T19:21:03.195Z",
+    "Type" : "customer-on-prem"
+  },
+  "Alias" : "Active Directory - Contoso Nation",
+  "Config" : "{\"AD_SERVER\":\"\",\"SEARCH_BASE\":\"\",\"TIMEOUT\":1,\"TRIMMED\":\"\"}",
+  "TotalScheduledRuns" : 249,
+  "TotalAdHocRuns" : 7,
+  "NextScheduledFor" : "2021-09-10T19:21:03.195Z",
+  "LastScheduledRun" : "2021-09-10T19:21:03.195Z",
+  "LastAdHocRun" : "2021-09-10T19:21:03.195Z",
+  "FreqType" : "days",
+  "FreqInterval" : 1,
+  "ActiveStart" : "2021-09-10T19:21:03.195Z",
+  "Enabled" : true,
+  "Visible" : true,
+  "Status" : "Active",
+  "CreatedOn" : "2021-09-10T19:21:03.195Z",
+  "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+  "EnvironmentID" : 8095,
+  "CreatedBy" : [ {
+    "ID" : 1234,
+    "FirstName" : "Alex",
+    "LastName" : "Weber",
+    "Username" : "Alex.Weber"
+  } ],
+  "UpdatedBy" : {
+    "ID" : 1234,
+    "FirstName" : "Alex",
+    "LastName" : "Weber",
+    "Username" : "Alex.Weber"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ID" : 12942,
+  "Name" : "Reader",
+  "Description" : "Users who will view Environments, Inspectors, Agents, and all features within an Environment.",
+  "Visible" : true,
+  "CreatedOn" : "2024-07-23T22:46:33.202",
+  "Roles" : [ {
+    "ID" : 600,
+    "Name" : "Agent Reader",
+    "Description" : "Agent Read-Only Permissions"
+  } ]
+}

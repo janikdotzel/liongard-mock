@@ -1,0 +1,43 @@
+[ {
+  "ID" : 26,
+  "Inspector" : {
+    "ID" : 13,
+    "Name" : "active-directory-inspector",
+    "Alias" : "Active Directory",
+    "Published" : true,
+    "Author" : "Liongard, Inc.",
+    "ContactEmail" : "support@liongard.com",
+    "Logo" : "https://resources.static.liongard.com/images/active-directory-inspector.png",
+    "Icon" : "https://resources.static.liongard.com/images/icons/microsoft-windows-icon.png",
+    "Description" : "Inspects Active Directory, returning a wide variety of data including actionable summary information such as privileged users, security policies and much more.",
+    "HelpLink" : "https://docs.liongard.com/docs/active-directory-inspection-setup",
+    "PublishedStatus" : "production",
+    "InspectorCategory" : "appservices",
+    "EnhancedBilling" : false,
+    "DefaultFrequency" : {
+      "Type" : "days",
+      "Interval" : 1
+    },
+    "Constraints" : {
+      "Tiers" : [ "core" ],
+      "Platform" : [ "windows" ],
+      "Frequency" : {
+        "MaxIntervalType" : "hours",
+        "MaxIntervalFrequency" : 8
+      },
+      "AgentConstraint" : [ "customer-on-prem" ],
+      "RecomendedAgent" : "customer-on-prem"
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "DiagnosticsEnabled" : false
+  },
+  "Name" : "1.0.1-20210824-921cf729",
+  "Discovers" : {
+    "inspectors" : [ "windows-inspector" ]
+  },
+  "CreatedOn" : "2018-11-05T00:00:00.000Z",
+  "Checksum" : "string",
+  "PolicyManifest" : "string",
+  "PolicyIntegrity" : "string"
+} ]

@@ -1,0 +1,112 @@
+[ {
+  "ID" : 68998,
+  "TimelineID" : 1300040,
+  "Environment" : {
+    "ID" : 18701,
+    "ServiceProviderID" : 1,
+    "Name" : "Contoso Nation",
+    "ShortName" : "CN",
+    "Description" : "Example Description",
+    "Status" : 1,
+    "Visible" : true,
+    "ExpiresOn" : "2021-09-10T19:21:03.195Z",
+    "KeyRotation" : 90,
+    "LastKeyRotation" : "2021-09-10T19:21:03.195Z",
+    "Website" : "contoso.com",
+    "Static" : false,
+    "CreatedOn" : "2021-09-10T19:21:03.195Z",
+    "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+    "Tier" : "Core"
+  },
+  "Inspector" : {
+    "ID" : 13,
+    "Name" : "active-directory-inspector",
+    "Alias" : "Active Directory",
+    "Published" : true,
+    "Author" : "Liongard, Inc.",
+    "ContactEmail" : "support@liongard.com",
+    "Logo" : "https://resources.static.liongard.com/images/active-directory-inspector.png",
+    "Icon" : "https://resources.static.liongard.com/images/icons/microsoft-windows-icon.png",
+    "Description" : "Inspects Active Directory, returning a wide variety of data including actionable summary information such as privileged users, security policies and much more.",
+    "HelpLink" : "https://docs.liongard.com/docs/active-directory-inspection-setup",
+    "PublishedStatus" : "production",
+    "InspectorCategory" : "appservices",
+    "EnhancedBilling" : false,
+    "DefaultFrequency" : {
+      "Type" : "days",
+      "Interval" : 1
+    },
+    "Constraints" : {
+      "Tiers" : [ "core" ],
+      "Platform" : [ "windows" ],
+      "Frequency" : {
+        "MaxIntervalType" : "hours",
+        "MaxIntervalFrequency" : 8
+      },
+      "AgentConstraint" : [ "customer-on-prem" ],
+      "RecomendedAgent" : "customer-on-prem"
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "DiagnosticsEnabled" : false
+  },
+  "Version" : {
+    "ID" : 26,
+    "Name" : "1.0.1-20210824-921cf729",
+    "Discovers" : {
+      "inspectors" : [ "windows-inspector" ]
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "Checksum" : "a877d8161295685275fd3",
+    "PolicyManifest" : "",
+    "PolicyInegrity" : ""
+  },
+  "System" : {
+    "ID" : 3454,
+    "UniqueCompositeKey" : "",
+    "Name" : "System Name",
+    "Description" : "This is the description",
+    "UserDefined" : false,
+    "Status" : 1,
+    "Visible" : true,
+    "LastVerifyTime" : "2021/09/10 19:21:03",
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "CreatedBy" : "Alex Weber"
+  },
+  "SystemDetail" : {
+    "ID" : 295035,
+    "VersionID" : 26,
+    "Status" : 1,
+    "Visible" : true,
+    "StartDate" : "2021/09/10 19:21:03",
+    "CreatedOn" : "2021/09/10 19:21:03"
+  },
+  "Timeline" : {
+    "ID" : 1294715,
+    "Status" : "Completed",
+    "AdHoc" : false,
+    "ChangeDetections" : 3,
+    "Alerts" : 2,
+    "Latest" : false,
+    "ExitCode" : 0,
+    "ExitMessage" : "",
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "ScheduledAt" : "2021/09/10 19:21:03",
+    "ProcessingAt" : "2021/09/10 19:21:03",
+    "RunningAt" : "2021/09/10 19:21:03",
+    "FinishedAt" : "2021/09/10 19:21:03",
+    "PayloadSizeBytes" : 202285,
+    "Expired" : false
+  },
+  "Name" : "Change Detection Name",
+  "Description" : "",
+  "Category" : { },
+  "Patch" : [ {
+    "count" : 1,
+    "value" : "",
+    "removed" : true,
+    "added" : false
+  } ],
+  "CreatedOn" : "2021/09/10 19:21:03"
+} ]

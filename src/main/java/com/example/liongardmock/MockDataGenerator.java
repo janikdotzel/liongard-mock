@@ -192,7 +192,7 @@ public final class MockDataGenerator {
             String fallback = httpMethod + "_" + sanitizedPath;
             return fallback.replaceAll("_+", "_").replaceAll("^_", "").replaceAll("_$", "");
         }
-        return operationId.replaceAll("[^A-Za-z0-9_\-]", "_");
+        return operationId.replaceAll("[^A-Za-z0-9_-]", "_");
     }
 
     private record ResponseSelection(String statusCode, JsonNode responseNode) {

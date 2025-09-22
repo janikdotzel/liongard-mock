@@ -1,0 +1,27 @@
+{
+  "ID" : 8095,
+  "Launchpoint" : [ {
+    "ID" : 18671,
+    "Alias" : "Active Directory - Contoso Nation",
+    "Enabled" : true,
+    "Status" : "Active"
+  } ],
+  "Agents" : [ {
+    "ID" : 1068,
+    "Name" : "Contoso Nation Agent",
+    "Description" : "Main Agent",
+    "Hostname" : "CN-DC01",
+    "Platform" : "windows",
+    "Managed" : false
+  } ],
+  "IntegrationMappings" : [ {
+    "ID" : 5502,
+    "Integration" : "integrationName"
+  } ],
+  "ChildEnvironments" : [ {
+    "ID" : 8669,
+    "Name" : "Contoso Nation - Remote",
+    "Status" : 1,
+    "Visible" : true
+  } ]
+}

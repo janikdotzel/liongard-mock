@@ -1,0 +1,29 @@
+[ {
+  "3517" : {
+    "1" : {
+      "TimelineID" : 1294715,
+      "TimelineFinishedAt" : "2021-08-27T18:20:21.542Z",
+      "TimelineCreatedAt" : "2021-08-27T18:18:20.480Z",
+      "Metric" : {
+        "ID" : 1,
+        "Name" : "Active Directory: Count of Joined Computers",
+        "err" : null,
+        "value" : 1
+      }
+    }
+  }
+}, {
+  "3623" : {
+    "1" : {
+      "TimelineID" : 1332180,
+      "TimelineFinishedAt" : "2021-09-27T18:20:21.542Z",
+      "TimelineCreatedAt" : "2021-09-27T18:18:20.480Z",
+      "Metric" : {
+        "ID" : 1,
+        "Name" : "Active Directory: Count of Joined Computers",
+        "err" : null,
+        "value" : 7
+      }
+    }
+  }
+} ]

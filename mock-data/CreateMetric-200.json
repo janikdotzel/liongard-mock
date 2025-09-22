@@ -1,0 +1,54 @@
+{
+  "ID" : 1,
+  "Name" : "Active Directory: Count of Joined Computers",
+  "UUIDS" : "aa4eef4d-3dc5-4b3d-9d8a-00c1d9b68065",
+  "UCK" : "Active Directory: Count of Joined Computers",
+  "Description" : "Number of computers joined to this Active Directory domain (servers and workstations.)",
+  "CreatedOn" : "2021-09-10T19:21:03.195Z",
+  "Inspector" : {
+    "ID" : 13,
+    "Name" : "active-directory-inspector",
+    "Alias" : "Active Directory",
+    "Published" : true,
+    "Author" : "Liongard, Inc.",
+    "ContactEmail" : "support@liongard.com",
+    "Logo" : "https://resources.static.liongard.com/images/active-directory-inspector.png",
+    "Icon" : "https://resources.static.liongard.com/images/icons/microsoft-windows-icon.png",
+    "Description" : "Inspects Active Directory, returning a wide variety of data including actionable summary information such as privileged users, security policies and much more.",
+    "HelpLink" : "https://docs.liongard.com/docs/active-directory-inspection-setup",
+    "PublishedStatus" : "production",
+    "InspectorCategory" : "appservices",
+    "EnhancedBilling" : false,
+    "DefaultFrequency" : {
+      "Type" : "days",
+      "Interval" : 1
+    },
+    "Constraints" : {
+      "Tiers" : [ "core" ],
+      "Platform" : [ "windows" ],
+      "Frequency" : {
+        "MaxIntervalType" : "hours",
+        "MaxIntervalFrequency" : 8
+      },
+      "AgentConstraint" : [ "customer-on-prem" ],
+      "RecomendedAgent" : "customer-on-prem"
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "DiagnosticsEnabled" : false
+  },
+  "MetricDisplay" : true,
+  "ChangesEnabled" : true,
+  "MetricVersions" : [ {
+    "ID" : 123,
+    "InspectorVersionID" : 65,
+    "Query" : "length(Computers)"
+  } ],
+  "Rules" : [ {
+    "ID" : 1220,
+    "Name" : "Alert Name",
+    "MetricID" : 1
+  } ],
+  "HasActiveAlertRule" : true,
+  "BelongsToChangeRule" : true
+}

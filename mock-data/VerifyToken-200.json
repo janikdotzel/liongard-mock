@@ -1,0 +1,57 @@
+{
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhYXxpeGEvcX4-bio0OyVtUihyeGI9UTddJW1ZSj9NXSIsImlhdCI6MTY2NTUxMTM0Nn0.13exKqYRXSTg7jdJHaL8jgFd9J5XeI2PCz5zV-U2grw",
+  "account" : {
+    "user" : {
+      "ServiceProviderName" : "Liongard",
+      "ID" : 3,
+      "FirstName" : "Alex",
+      "LastName" : "Weber",
+      "Email" : "Alex.Weber@contoso.com",
+      "Username" : "Alex.Weber",
+      "MfaFactorAuth" : false,
+      "Status" : "active",
+      "Owner" : false,
+      "Visible" : true,
+      "Locked" : false,
+      "ShowOnboard" : false,
+      "LastLogin" : "2021-07-22T14:47:36.286Z",
+      "ReceiveTechUpdates" : false,
+      "Department" : "Other",
+      "CreatedOn" : "2021-07-22T14:47:36.286Z",
+      "UpdatedOn" : "2021-07-22T14:47:36.286Z",
+      "Preferences" : {
+        "ColorTheme" : {
+          "name" : "Light Mode",
+          "colors" : { },
+          "cssClass" : "light-mode"
+        }
+      },
+      "CreatedBy" : {
+        "ID" : 1234,
+        "FirstName" : "Alex",
+        "LastName" : "Weber",
+        "Username" : "Alex.Weber"
+      },
+      "UpdatedBy" : {
+        "ID" : 1234,
+        "FirstName" : "Alex",
+        "LastName" : "Weber",
+        "Username" : "Alex.Weber"
+      }
+    },
+    "groups" : [ {
+      "Name" : "Admin",
+      "ServiceProviderID" : 2,
+      "EnvironmentID" : 3
+    } ],
+    "roles" : [ "Run", "Jump", "Crawl" ],
+    "permissions" : [ {
+      "Permission" : "Move",
+      "Environments" : [ 3, 4, 5, 6, 7 ]
+    } ],
+    "onboard" : { },
+    "serviceProvider" : { },
+    "lastActive" : "2022-10-11T18:02:56.686Z",
+    "lastLoggedIn" : "2022-10-11T18:02:56.686Z"
+  }
+}

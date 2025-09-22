@@ -1,0 +1,82 @@
+[ {
+  "ID" : 3454,
+  "Environment" : {
+    "ID" : 18701,
+    "ServiceProviderID" : 1,
+    "Name" : "Contoso Nation",
+    "ShortName" : "CN",
+    "Description" : "Example Description",
+    "Status" : 1,
+    "Visible" : true,
+    "ExpiresOn" : "2021-09-10T19:21:03.195Z",
+    "KeyRotation" : 90,
+    "LastKeyRotation" : "2021-09-10T19:21:03.195Z",
+    "Website" : "contoso.com",
+    "Static" : false,
+    "CreatedOn" : "2021-09-10T19:21:03.195Z",
+    "UpdatedOn" : "2021-09-10T19:21:03.195Z",
+    "Tier" : "Core"
+  },
+  "Launchpoint" : {
+    "ID" : 18700,
+    "Alias" : "Launchpoint Name",
+    "Config" : "{\"AD_SERVER\":\"dfdfdfdfd\",\"SEARCH_BASE\":\"dfdfdfd\",\"TIMEOUT\":2,\"TRIMMED\":1}",
+    "TotalScheduledRuns" : 1,
+    "TotalAdHocRuns" : 3,
+    "NextScheduledFor" : "2021/09/10 19:21:03",
+    "LastScheduledRun" : "2021/09/10 19:21:03",
+    "LastAdHocRun" : "2021/09/10 19:21:03",
+    "FreqType" : "weeks",
+    "FreqInterval" : 2,
+    "ActiveStart" : "2021/09/10 19:21:03",
+    "ActiveEnd" : "2021/09/10 19:21:03",
+    "Enabled" : true,
+    "Visible" : true,
+    "Status" : "Active",
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "EnvironmentID" : 8000
+  },
+  "Inspector" : {
+    "ID" : 13,
+    "Name" : "active-directory-inspector",
+    "Alias" : "Active Directory",
+    "Published" : true,
+    "Author" : "Liongard, Inc.",
+    "ContactEmail" : "support@liongard.com",
+    "Logo" : "https://resources.static.liongard.com/images/active-directory-inspector.png",
+    "Icon" : "https://resources.static.liongard.com/images/icons/microsoft-windows-icon.png",
+    "Description" : "Inspects Active Directory, returning a wide variety of data including actionable summary information such as privileged users, security policies and much more.",
+    "HelpLink" : "https://docs.liongard.com/docs/active-directory-inspection-setup",
+    "PublishedStatus" : "production",
+    "InspectorCategory" : "appservices",
+    "EnhancedBilling" : false,
+    "DefaultFrequency" : {
+      "Type" : "days",
+      "Interval" : 1
+    },
+    "Constraints" : {
+      "Tiers" : [ "core" ],
+      "Platform" : [ "windows" ],
+      "Frequency" : {
+        "MaxIntervalType" : "hours",
+        "MaxIntervalFrequency" : 8
+      },
+      "AgentConstraint" : [ "customer-on-prem" ],
+      "RecomendedAgent" : "customer-on-prem"
+    },
+    "CreatedOn" : "2021/09/10 19:21:03",
+    "UpdatedOn" : "2021/09/10 19:21:03",
+    "DiagnosticsEnabled" : false
+  },
+  "UniqueCompositeKey" : "",
+  "Name" : "System Name",
+  "Description" : "This is the description",
+  "UserDefined" : false,
+  "Status" : 1,
+  "Visible" : true,
+  "LastVerifyTime" : "2021/09/10 19:21:03",
+  "CreatedOn" : "2021/09/10 19:21:03",
+  "CreatedBy" : "Alex Weber",
+  "UpdatedBy" : "Alex Weber"
+} ]

@@ -1,0 +1,41 @@
+[ {
+  "ID" : 3,
+  "FirstName" : "Alex",
+  "LastName" : "Weber",
+  "Email" : "Alex.Weber@contoso.com",
+  "Username" : "Alex.Weber",
+  "MfaFactorAuth" : true,
+  "Status" : "active",
+  "Owner" : false,
+  "Visible" : true,
+  "Locked" : false,
+  "LastLogin" : "2021-07-22T14:47:36.286Z",
+  "ReceiveTechUpdates" : false,
+  "Department" : "Other",
+  "CreatedOn" : "2021-07-22T14:47:36.286Z",
+  "UpdatedOn" : "2021-07-22T14:47:36.286Z",
+  "Preferences" : {
+    "ColorTheme" : {
+      "name" : "Light Mode",
+      "colors" : { },
+      "cssClass" : "light-mode"
+    }
+  },
+  "Groups" : [ {
+    "ID" : 85783,
+    "Name" : "Manager",
+    "EnvironmentName" : "Contoso Nation"
+  } ],
+  "CreatedBy" : {
+    "ID" : 1234,
+    "FirstName" : "Alex",
+    "LastName" : "Weber",
+    "Username" : "Alex.Weber"
+  },
+  "UpdatedBy" : {
+    "ID" : 1234,
+    "FirstName" : "Alex",
+    "LastName" : "Weber",
+    "Username" : "Alex.Weber"
+  }
+} ]
